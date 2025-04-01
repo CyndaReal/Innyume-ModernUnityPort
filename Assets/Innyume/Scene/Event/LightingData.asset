@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1120 &112000000
+LightmapSnapshot:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: LightingData
+  m_Lightmaps: []
+  m_LightProbes: {fileID: 25800000, guid: 3fc0d93230bbc80498209bee69d486ec, type: 2}
+  m_BakedAmbientProbesInLinear:
+  - sh[ 0]: 0.16917033
+    sh[ 1]: -0.018756619
+    sh[ 2]: -0.008157637
+    sh[ 3]: 0.0070101097
+    sh[ 4]: -0.002009476
+    sh[ 5]: 0.009277036
+    sh[ 6]: 0.010059149
+    sh[ 7]: -0.010078836
+    sh[ 8]: 0.024063477
+    sh[ 9]: 0.2128153
+    sh[10]: -0.0230969
+    sh[11]: -0.013094708
+    sh[12]: 0.011489998
+    sh[13]: -0.0032433413
+    sh[14]: 0.015521667
+    sh[15]: 0.0144667495
+    sh[16]: -0.015083368
+    sh[17]: 0.034184005
+    sh[18]: 0.2931423
+    sh[19]: -0.027775545
+    sh[20]: -0.02234263
+    sh[21]: 0.020731097
+    sh[22]: -0.0055966843
+    sh[23]: 0.029456723
+    sh[24]: 0.018278135
+    sh[25]: -0.022035088
+    sh[26]: 0.041088056
+  m_BakedAmbientProbesInGamma:
+  - sh[ 0]: 0.42581034
+    sh[ 1]: -0.026786132
+    sh[ 2]: -0.008266211
+    sh[ 3]: 0.008920191
+    sh[ 4]: -0.0019040408
+    sh[ 5]: 0.013754996
+    sh[ 6]: 0.010324033
+    sh[ 7]: -0.008319304
+    sh[ 8]: 0.025758877
+    sh[ 9]: 0.4657632
+    sh[10]: -0.024358988
+    sh[11]: -0.01029636
+    sh[12]: 0.011235888
+    sh[13]: -0.0023570792
+    sh[14]: 0.017423116
+    sh[15]: 0.0121345315
+    sh[16]: -0.0100910375
+    sh[17]: 0.030054748
+    sh[18]: 0.5293664
+    sh[19]: -0.017508231
+    sh[20]: -0.013267353
+    sh[21]: 0.014899989
+    sh[22]: -0.002994264
+    sh[23]: 0.023449276
+    sh[24]: 0.012676954
+    sh[25]: -0.012203254
+    sh[26]: 0.03026769
+  m_LightmappedRendererData: []
+  m_LightmappedRendererDataIDs: []
+  m_EnlightenSceneMapping:
+    m_Renderers: []
+    m_Systems: []
+    m_SystemAtlases: []
+    m_TerrainChunks: []
+  m_EnlightenSceneMappingRendererIDs: []
+  m_Lights:
+  - targetObject: 47
+    targetPrefab: 0
+  m_BakedReflectionProbeCubemaps:
+  - {fileID: 8900000, guid: 9dfbf7bf87c976f4c9df26ed4861724c, type: 3}
+  m_BakedSkyboxProbeCubemaps: []
+  m_BakedReflectionProbes: []
+  m_EnlightenData: 556e69747946530000000003352e782e7800352e302e3066340000000000000000000000000000000000000000000000000000000000000000000000000000000000

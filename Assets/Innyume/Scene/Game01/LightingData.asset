@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1120 &112000000
+LightmapSnapshot:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: LightingData
+  m_Lightmaps: []
+  m_LightProbes: {fileID: 0}
+  m_BakedAmbientProbesInLinear:
+  - sh[ 0]: 0
+    sh[ 1]: 0
+    sh[ 2]: 0
+    sh[ 3]: 0
+    sh[ 4]: 0
+    sh[ 5]: 0
+    sh[ 6]: 0
+    sh[ 7]: 0
+    sh[ 8]: 0
+    sh[ 9]: 0
+    sh[10]: 0
+    sh[11]: 0
+    sh[12]: 0
+    sh[13]: 0
+    sh[14]: 0
+    sh[15]: 0
+    sh[16]: 0
+    sh[17]: 0
+    sh[18]: 0
+    sh[19]: 0
+    sh[20]: 0
+    sh[21]: 0
+    sh[22]: 0
+    sh[23]: 0
+    sh[24]: 0
+    sh[25]: 0
+    sh[26]: 0
+  m_BakedAmbientProbesInGamma:
+  - sh[ 0]: 0
+    sh[ 1]: 0
+    sh[ 2]: 0
+    sh[ 3]: 0
+    sh[ 4]: 0
+    sh[ 5]: 0
+    sh[ 6]: 0
+    sh[ 7]: 0
+    sh[ 8]: 0
+    sh[ 9]: 0
+    sh[10]: 0
+    sh[11]: 0
+    sh[12]: 0
+    sh[13]: 0
+    sh[14]: 0
+    sh[15]: 0
+    sh[16]: 0
+    sh[17]: 0
+    sh[18]: 0
+    sh[19]: 0
+    sh[20]: 0
+    sh[21]: 0
+    sh[22]: 0
+    sh[23]: 0
+    sh[24]: 0
+    sh[25]: 0
+    sh[26]: 0
+  m_LightmappedRendererData: []
+  m_LightmappedRendererDataIDs: []
+  m_EnlightenSceneMapping:
+    m_Renderers: []
+    m_Systems: []
+    m_SystemAtlases: []
+    m_TerrainChunks: []
+  m_EnlightenSceneMappingRendererIDs: []
+  m_Lights:
+  - targetObject: 1009
+    targetPrefab: 0
+  - targetObject: 1010
+    targetPrefab: 0
+  - targetObject: 1011
+    targetPrefab: 0
+  - targetObject: 1012
+    targetPrefab: 0
+  - targetObject: 1013
+    targetPrefab: 0
+  - targetObject: 1014
+    targetPrefab: 0
+  - targetObject: 1015
+    targetPrefab: 0
+  - targetObject: 1016
+    targetPrefab: 0
+  - targetObject: 1017
+    targetPrefab: 0
+  - targetObject: 1018
+    targetPrefab: 0
+  - targetObject: 1019
+    targetPrefab: 0
+  - targetObject: 1020
+    targetPrefab: 0
+  - targetObject: 1021
+    targetPrefab: 0
+  - targetObject: 1022
+    targetPrefab: 0
+  - targetObject: 1023
+    targetPrefab: 0
+  - targetObject: 1024
+    targetPrefab: 0
+  - targetObject: 1025
+    targetPrefab: 0
+  - targetObject: 1026
+    targetPrefab: 0
+  - targetObject: 1027
+    targetPrefab: 0
+  - targetObject: 1028
+    targetPrefab: 0
+  - targetObject: 1029
+    targetPrefab: 0
+  - targetObject: 1030
+    targetPrefab: 0
+  - targetObject: 1031
+    targetPrefab: 0
+  - targetObject: 1032
+    targetPrefab: 0
+  - targetObject: 1033
+    targetPrefab: 0
+  - targetObject: 1034
+    targetPrefab: 0
+  - targetObject: 1035
+    targetPrefab: 0
+  - targetObject: 1036
+    targetPrefab: 0
+  - targetObject: 1037
+    targetPrefab: 0
+  - targetObject: 1038
+    targetPrefab: 0
+  - targetObject: 1039
+    targetPrefab: 0
+  - targetObject: 1040
+    targetPrefab: 0
+  - targetObject: 1041
+    targetPrefab: 0
+  - targetObject: 1042
+    targetPrefab: 0
+  - targetObject: 1043
+    targetPrefab: 0
+  - targetObject: 1044
+    targetPrefab: 0
+  - targetObject: 1045
+    targetPrefab: 0
+  - targetObject: 1046
+    targetPrefab: 0
+  - targetObject: 1047
+    targetPrefab: 0
+  - targetObject: 1048
+    targetPrefab: 0
+  - targetObject: 1049
+    targetPrefab: 0
+  - targetObject: 1050
+    targetPrefab: 0
+  - targetObject: 1051
+    targetPrefab: 0
+  - targetObject: 1052
+    targetPrefab: 0
+  - targetObject: 1053
+    targetPrefab: 0
+  - targetObject: 1054
+    targetPrefab: 0
+  - targetObject: 1055
+    targetPrefab: 0
+  - targetObject: 1056
+    targetPrefab: 0
+  - targetObject: 1057
+    targetPrefab: 0
+  - targetObject: 1058
+    targetPrefab: 0
+  - targetObject: 1059
+    targetPrefab: 0
+  - targetObject: 1060
+    targetPrefab: 0
+  - targetObject: 1061
+    targetPrefab: 0
+  - targetObject: 1062
+    targetPrefab: 0
+  - targetObject: 1063
+    targetPrefab: 0
+  - targetObject: 1064
+    targetPrefab: 0
+  - targetObject: 1065
+    targetPrefab: 0
+  m_BakedReflectionProbeCubemaps: []
+  m_BakedSkyboxProbeCubemaps: []
+  m_BakedReflectionProbes: []
+  m_EnlightenData: 556e69747946530000000003352e782e7800352e302e3066340000000000000000000000000000000000000000000000000000000000000000000000000000000000
