@@ -2,16 +2,23 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1045 &1
 EditorBuildSettings:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
+  serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Innyume/Scene/Title.unity
+    path: Assets/Scenes/Title.unity
+    guid: 9265e96e4b28e384499ad4ec7c46fb17
   - enabled: 1
-    path: Assets/Innyume/Scene/Event.unity
+    path: Assets/Scenes/Event.unity
+    guid: 4fe827b1c174f3a4093728b1eb5152aa
   - enabled: 1
-    path: Assets/Innyume/Scene/Game01.unity
+    path: Assets/Scenes/Game01.unity
+    guid: 2d536bcf79b4b83478c855643cdaf78c
   - enabled: 1
-    path: Assets/Innyume/Scene/GameOver.unity
+    path: Assets/Scenes/GameOver.unity
+    guid: 11329f1b3f644d4479bd8db4fa5470e1
   - enabled: 1
-    path: Assets/Innyume/Scene/GameClear.unity
+    path: Assets/Scenes/GameClear.unity
+    guid: 1d6f12102ae194946b04cb4016f50dc0
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

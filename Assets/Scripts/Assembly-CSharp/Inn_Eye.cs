@@ -2,49 +2,56 @@ using UnityEngine;
 
 public class Inn_Eye : MonoBehaviour
 {
-	private GameObject player;
+    private GameObject player;
 
-	private int frame;
+    private int frame;
 
-	public int innNum;
+    public int innNum;
 
-	private void Start()
-	{
-		player = GameObject.Find("Player1");
-		Vector3 position = player.transform.position;
-		base.gameObject.transform.LookAt(new Vector3(position.x, position.y + 3f, position.z));
-		frame = 0;
-	}
+    private void Start()
+    {
+        player = GameObject.Find("Player1");
 
-	private void FixedUpdate()
-	{
-		frame++;
-		float num = 10f;
-		base.gameObject.transform.position += base.gameObject.transform.TransformDirection(Vector3.forward) * num;
-		if (frame >= 6)
-		{
-			Object.Destroy(base.gameObject);
-		}
-	}
+        Vector3 playerPos = player.transform.position;
 
-	private void InnyumeNum(int a)
-	{
-		innNum = a;
-	}
+        base.gameObject.transform.LookAt(new Vector3(playerPos.x, playerPos.y + 3f, playerPos.z));
 
-	private void OnTriggerEnter(Collider col)
-	{
-		if (col.gameObject.name == "Player1")
-		{
-			Object.Destroy(base.gameObject);
-		}
-		if (col.gameObject.tag == "Stage")
-		{
-			Object.Destroy(base.gameObject);
-		}
-		if (col.gameObject.name == "Player1")
-		{
-			GameObject.Find("innyume" + innNum).GetComponent<Innyume>().isDiscover = true;
-		}
-	}
+        frame = 0;
+    }
+
+    private void FixedUpdate()
+    {
+        frame++;
+
+        float movementSpeed = 10f;
+        base.gameObject.transform.position += base.gameObject.transform.TransformDirection(Vector3.forward) * movementSpeed;
+
+        if (frame >= 6)
+        {
+            Object.Destroy(base.gameObject);
+        }
+    }
+
+    private void InnyumeNum(int a)
+    {
+        innNum = a;
+    }
+
+    private void OnTriggerEnter(Collider col)
+    {
+        if (col.gameObject.name == "Player1")
+        {
+            Object.Destroy(base.gameObject);
+        }
+
+        if (col.gameObject.tag == "Stage")
+        {
+            Object.Destroy(base.gameObject);
+        }
+
+        if (col.gameObject.name == "Player1")
+        {
+            GameObject.Find("innyume" + innNum).GetComponent<Innyume>().isDiscover = true;
+        }
+    }
 }
